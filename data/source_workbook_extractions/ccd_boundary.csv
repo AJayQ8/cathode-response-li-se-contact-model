@@ -1,0 +1,11 @@
+cathode,stress_index,pressure_mpa,ccd_ma_cm2
+N-LCO,1.0,0.2,1.5
+N-LCO,1.0,0.5,6.0
+N-LCO,1.0,1.0,7.0
+N-LCO,1.0,2.0,7.0
+N-LCO,1.0,5.0,7.0
+P-LCO,-1.0,0.2,0.6
+P-LCO,-1.0,0.5,1.0
+P-LCO,-1.0,1.0,1.5
+P-LCO,-1.0,2.0,4.0
+P-LCO,-1.0,5.0,7.0

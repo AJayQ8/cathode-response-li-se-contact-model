@@ -1,0 +1,12 @@
+configuration,use_stress_field,positive_stress_closure_gain,negative_stress_opening_gain,local_overdrive_opening_gain,risk_separation,increment_vs_CCD_only,one_line_note
+CCD-only control,False,0.0,0.0,1.0,0.319973077647,0.000000000000,bounds mechanism
+"Stress field computed, no stress-response drive",True,0.0,0.0,1.0,0.319973077647,0.000000000000,bounds mechanism
+Add favorable-stress closure drive,True,1.0,0.0,1.0,0.578272657972,0.258299580325,strengthens amplification mechanism
+Add unfavorable-stress opening drive,True,0.0,1.0,1.0,0.371514157584,0.051541079937,strengthens amplification mechanism
+Full stress closure + opening drives,True,1.0,1.0,1.0,0.629813737909,0.309840660262,strengthens amplification mechanism
+"Full stress drives, local-overdrive opening disabled",True,1.0,1.0,0.0,0.495579232330,0.175606154683,strengthens amplification mechanism
+Increment: favorable-stress closure alone,derived,derived,derived,derived,,0.258299580325,term contribution estimate
+Increment: unfavorable-stress opening alone,derived,derived,derived,derived,,0.051541079937,term contribution estimate
+Interaction: both stress drives beyond single-drive sum,derived,derived,derived,derived,,0.000000000000,complicates additivity; reduced model is nonlinear
+Local-overdrive opening contribution inside full stress model,derived,derived,derived,derived,,0.134234505578,term contribution estimate within full configuration
+Dominant term verdict,,,,,,0.258299580325,Dominant scalar contribution in this decomposition: favorable-stress closure.
