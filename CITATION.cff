@@ -3,7 +3,9 @@ message: "If you use this code/data archive, please cite the Zenodo release."
 type: software
 title: "Feedback-amplified cathode-response leverage in Li|solid-electrolyte contact stability: code/data reproducibility archive"
 authors:
-  - name: "AJ"
+  - given-names: "Ayas"
+    family-names: "Alzanki"
+    orcid: "https://orcid.org/0009-0004-3121-3778"
 version: "1.0.0"
 date-released: "2026-06-28"
 doi: "10.5281/zenodo.21003702"

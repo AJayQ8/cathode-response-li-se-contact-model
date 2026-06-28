@@ -83,9 +83,11 @@ licensed by the authors of this repository. See `LICENSE` for details.
 
 Please cite the versioned Zenodo archive for the release you used:
 
-AJ. **Feedback-amplified cathode-response leverage in Li|solid-electrolyte
+Ayas Alzanki. **Feedback-amplified cathode-response leverage in Li|solid-electrolyte
 contact stability: code/data reproducibility archive**. Version 1.0.0. Zenodo.
 https://doi.org/10.5281/zenodo.21003702
+
+Author ORCID: https://orcid.org/0009-0004-3121-3778
 
 For machine-readable citation metadata, see `CITATION.cff`. When the associated
 manuscript has a final citation, cite both the manuscript and this archive.
