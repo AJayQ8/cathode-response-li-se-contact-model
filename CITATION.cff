@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this code/data archive, please cite the Zenodo release."
+type: software
+title: "Feedback-amplified cathode-response leverage in Li|solid-electrolyte contact stability: code/data reproducibility archive"
+authors:
+  - name: "AJ"
+version: "1.0.0"
+date-released: "2026-06-28"
+doi: "10.5281/zenodo.21003702"
+url: "https://doi.org/10.5281/zenodo.21003702"
+repository-code: "https://github.com/AJayQ8/cathode-response-li-se-contact-model"

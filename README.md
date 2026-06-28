@@ -1,5 +1,7 @@
 # Reduced Li|SE Contact-Field Model
 
+[![DOI](https://zenodo.org/badge/1280075705.svg)](https://doi.org/10.5281/zenodo.21003701)
+
 This repository contains the public code-data archive for the manuscript:
 
 **Feedback-amplified cathode-response leverage in Li|solid-electrolyte contact stability**
@@ -79,5 +81,11 @@ licensed by the authors of this repository. See `LICENSE` for details.
 
 ## Citation
 
-Please cite the associated manuscript and this repository/archive once the
-final citation and archive DOI are available.
+Please cite the versioned Zenodo archive for the release you used:
+
+AJ. **Feedback-amplified cathode-response leverage in Li|solid-electrolyte
+contact stability: code/data reproducibility archive**. Version 1.0.0. Zenodo.
+https://doi.org/10.5281/zenodo.21003702
+
+For machine-readable citation metadata, see `CITATION.cff`. When the associated
+manuscript has a final citation, cite both the manuscript and this archive.
