@@ -2,7 +2,7 @@
 
 This repository contains the public code-data archive for the manuscript:
 
-**Cathode-response leverage in reduced Li|solid-electrolyte contact-field modeling**
+**Feedback-amplified cathode-response leverage in Li|solid-electrolyte contact stability**
 
 The archive is intended to make the reduced-model calculations, processed
 source-workbook extraction tables, manuscript figure data, and supplementary
@@ -68,7 +68,14 @@ feedback and to map pressure-current regimes under the stated assumptions.
 
 ## License
 
-No reuse license is granted unless a license file is added by the authors.
+This repository uses file-type licensing:
+
+- Code in `src/` and `scripts/` is licensed under the MIT License.
+- Data, figures, and documentation are licensed under the Creative Commons
+  Attribution 4.0 International License (CC BY 4.0).
+
+The raw Moradi source workbook is not included in this repository and is not
+licensed by the authors of this repository. See `LICENSE` for details.
 
 ## Citation
 

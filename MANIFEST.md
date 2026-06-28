@@ -6,6 +6,7 @@ repository for the paper once the manuscript is final.
 ## Top-Level Contents
 
 - `README.md`: overview, quick start, scope, and release notes.
+- `LICENSE`: file-type license terms for code, data, figures, and documentation.
 - `requirements.txt`: Python dependencies for public checks and model code.
 - `src/`: reduced Li|SE contact-field model implementation.
 - `scripts/`: public verification script.
@@ -25,5 +26,5 @@ repository for the paper once the manuscript is final.
 
 ## Release Notes
 
-The author-facing public release should add the selected license, final paper
-citation, and archive DOI once those records are available.
+The author-facing public release should add the final paper citation and
+archive DOI once those records are available.
