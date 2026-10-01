@@ -1,0 +1,114 @@
+{
+  "meaning": "Dimensionless fractional increase from requested absolute-magnitude formula; not a feedback amplification or full forecast. All67 raw-vector pooled median retained explicitly.",
+  "formula": "expm1(m*log1p(eta*max_abs_b_MPa/2))",
+  "rows": [
+    {
+      "m": 5.9,
+      "eta_label": "one",
+      "eta": 1.0,
+      "local_P-LCO": 0.03505910437498403,
+      "local_N-LCO": 0.022000736343742697,
+      "balance_aligned_P-LCO": 0.04119644635378915,
+      "balance_aligned_N-LCO": 0.02774414657850807
+    },
+    {
+      "m": 5.9,
+      "eta_label": "pooled67_median",
+      "eta": 32.58380054287353,
+      "local_P-LCO": 1.8027126136053804,
+      "local_N-LCO": 0.9557742024946476,
+      "balance_aligned_P-LCO": 2.290934949672236,
+      "balance_aligned_N-LCO": 1.2984031651025527
+    },
+    {
+      "m": 5.9,
+      "eta_label": "pooled67_maximum",
+      "eta": 70.0,
+      "local_P-LCO": 6.593472454692326,
+      "local_N-LCO": 2.8858425106908445,
+      "balance_aligned_P-LCO": 9.129950275148431,
+      "balance_aligned_N-LCO": 4.271346170130311
+    },
+    {
+      "m": 6.6,
+      "eta_label": "one",
+      "eta": 1.0,
+      "local_P-LCO": 0.03929939867260297,
+      "local_N-LCO": 0.024642908215711603,
+      "balance_aligned_P-LCO": 0.046195446158307375,
+      "balance_aligned_N-LCO": 0.0310864939673728
+    },
+    {
+      "m": 6.6,
+      "eta_label": "pooled67_median",
+      "eta": 32.58380054287353,
+      "local_P-LCO": 2.167240994982325,
+      "local_N-LCO": 1.117785402506186,
+      "balance_aligned_P-LCO": 2.7904970566296248,
+      "balance_aligned_N-LCO": 1.5369230064221961
+    },
+    {
+      "m": 6.6,
+      "eta_label": "pooled67_maximum",
+      "eta": 70.0,
+      "local_P-LCO": 8.65827251108227,
+      "local_N-LCO": 3.5648248291857287,
+      "balance_aligned_P-LCO": 12.33265544564449,
+      "balance_aligned_N-LCO": 5.420564972659
+    },
+    {
+      "m": 7.3,
+      "eta_label": "one",
+      "eta": 1.0,
+      "local_P-LCO": 0.04355706405140407,
+      "local_N-LCO": 0.02729191087747622,
+      "balance_aligned_P-LCO": 0.051218447196342186,
+      "balance_aligned_N-LCO": 0.034439711071336414
+    },
+    {
+      "m": 7.3,
+      "eta_label": "pooled67_median",
+      "eta": 32.58380054287353,
+      "local_P-LCO": 2.5791809233670673,
+      "local_N-LCO": 1.2932171849631309,
+      "balance_aligned_P-LCO": 3.3658924153905967,
+      "balance_aligned_N-LCO": 1.8001955610895048
+    },
+    {
+      "m": 7.3,
+      "eta_label": "pooled67_maximum",
+      "eta": 70.0,
+      "local_P-LCO": 11.28452838341231,
+      "local_N-LCO": 4.362447310672378,
+      "balance_aligned_P-LCO": 16.5479342350147,
+      "balance_aligned_N-LCO": 6.820327718510772
+    },
+    {
+      "m": 5.9,
+      "eta_label": "deduplicated50_median",
+      "eta": 33.394951884580244,
+      "local_P-LCO": 1.8693367838282335,
+      "local_N-LCO": 0.9868481171651962,
+      "balance_aligned_P-LCO": 2.3802932033707203,
+      "balance_aligned_N-LCO": 1.343172213985207
+    },
+    {
+      "m": 6.6,
+      "eta_label": "deduplicated50_median",
+      "eta": 33.394951884580244,
+      "local_P-LCO": 2.2515810829521583,
+      "local_N-LCO": 1.1554608462502678,
+      "balance_aligned_P-LCO": 2.905815014662119,
+      "balance_aligned_N-LCO": 1.5922643323559884
+    },
+    {
+      "m": 7.3,
+      "eta_label": "deduplicated50_median",
+      "eta": 33.394951884580244,
+      "local_P-LCO": 2.6847468023277004,
+      "local_N-LCO": 1.338382798151062,
+      "balance_aligned_P-LCO": 3.513037778364275,
+      "balance_aligned_N-LCO": 1.8678363155289035
+    }
+  ]
+}

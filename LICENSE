@@ -1,12 +1,12 @@
 # License
 
-This repository uses different licenses for different kinds of material.
+This repository uses file-type licenses. These terms apply to the included material only; third-party materials retain their original rights and terms.
 
 ## Code: MIT License
 
-The code in `src/` and `scripts/` is licensed under the MIT License.
+The MIT License applies to included Python code in `scripts/`, `source/route_a/`, and `.py` source files nested in `evidence/*.zip`. Each evidence ZIP identifies its code and saved-output members in `EVIDENCE_MANIFEST.json`.
 
-Copyright (c) 2026 The Authors
+Copyright (c) 2026 Ayas Alzanki
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -26,25 +26,13 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## Data, Figures, and Documentation: CC BY 4.0
+## Data, Figures, Documentation, and Provenance: CC BY 4.0
 
-The data, figures, and documentation in this repository are licensed under the
-Creative Commons Attribution 4.0 International License (CC BY 4.0).
-
-This applies to:
-
-- `data/`
-- `figures/`
-- `docs/`
-- `README.md`, `DATA_SOURCES.md`, `MANIFEST.md`, and
-  `source_workbook/README.md`
+The processed tables in `data/`, final figures in `figures/`, explanatory material in `docs/`, repository provenance/readme material, and non-code saved outputs/manifests in `evidence/*.zip` are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
 
 To view a copy of the CC BY 4.0 license, visit:
 https://creativecommons.org/licenses/by/4.0/
 
 ## Excluded Third-Party Materials
 
-The raw Moradi source workbook is not included in this repository and is not
-licensed by the authors of this repository. Readers should obtain the raw
-workbook from the original publication, subject to the original
-publisher/rightsholder terms.
+The raw Moradi source workbook is not included and is not licensed by the author of this repository. Obtain it from the original publication subject to the publisher/rightsholder terms. External publications, software dependencies, and any other third-party material retain their respective licenses and are not relicensed by this file.

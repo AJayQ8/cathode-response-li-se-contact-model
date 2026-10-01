@@ -1,0 +1,79 @@
+{
+  "window_stats": {
+    "local": {
+      "cells": {
+        "P-LCO": {
+          "q0": 0.0,
+          "q1": 0.3,
+          "mean_MPa": -0.004084030107505712,
+          "mean_abs_MPa": 0.00450145195872141,
+          "max_abs_MPa": 0.011715035,
+          "min_MPa": -0.011715035,
+          "max_MPa": 0.0020921650000000013,
+          "end_MPa": -0.011702170714285733,
+          "mean_including_sweep_MPa": -0.004893208166804248,
+          "mean_abs_including_sweep_MPa": 0.005266292610651158
+        },
+        "N-LCO": {
+          "q0": 0.0,
+          "q1": 0.3,
+          "mean_MPa": 0.0031371291108174154,
+          "mean_abs_MPa": 0.0031480174099997715,
+          "max_abs_MPa": 0.007390642962963021,
+          "min_MPa": -0.0004205570370369784,
+          "max_MPa": 0.007390642962963021,
+          "end_MPa": 0.007332357248677279,
+          "mean_including_sweep_MPa": 0.0035827347694852066,
+          "mean_abs_including_sweep_MPa": 0.003592466543308396
+        }
+      },
+      "paired_difference": {
+        "max_abs_MPa": 0.01903452796296301,
+        "mean_abs_MPa": 0.007332322845933496,
+        "signed_mean_MPa": -0.0072211592183231334,
+        "end_MPa": -0.01903452796296301
+      }
+    },
+    "balance_aligned": {
+      "cells": {
+        "P-LCO": {
+          "q0": 0.05058840000000242,
+          "q1": 0.3505884000000024,
+          "mean_MPa": -0.006261464876172972,
+          "mean_abs_MPa": 0.006500151158415315,
+          "max_abs_MPa": 0.013731835,
+          "min_MPa": -0.013731835,
+          "max_MPa": 0.0020921650000000013,
+          "end_MPa": -0.013535669642858067,
+          "mean_including_sweep_MPa": -0.007034111011216458,
+          "mean_abs_including_sweep_MPa": 0.007247444689376625
+        },
+        "N-LCO": {
+          "q0": 0.07763160000000124,
+          "q1": 0.37763160000000123,
+          "mean_MPa": 0.005064985913613191,
+          "mean_abs_MPa": 0.005064985913613191,
+          "max_abs_MPa": 0.00929824296296302,
+          "min_MPa": 0.0007730429629630215,
+          "max_MPa": 0.00929824296296302,
+          "end_MPa": 0.008634162605818386,
+          "mean_including_sweep_MPa": 0.0054440941000021125,
+          "mean_abs_including_sweep_MPa": 0.0054440941000021125
+        }
+      },
+      "paired_difference": {
+        "max_abs_MPa": 0.022788143677247668,
+        "mean_abs_MPa": 0.011347952514588297,
+        "signed_mean_MPa": -0.011326450789786167,
+        "end_MPa": -0.022169832248676455
+      }
+    }
+  },
+  "saved_loading_extrema_max_difference_MPa": 0.0,
+  "source_files": [
+    "mechanics3/waveforms.csv",
+    "mechanics3/waveform_summary.json",
+    "forecast_split_20260925/manifest.json"
+  ],
+  "method": "Exact piecewise-linear arithmetic on existing source samples; no solver or fitting."
+}

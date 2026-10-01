@@ -1,0 +1,5 @@
+# Archived source snapshots
+
+`route_a/` contains exact Python source snapshots referenced by the frozen Route A analysis record, including the scalar contact/recovery equations, circuit/readout routines, spatial current-routing/load-sharing code, and their local scientific source dependencies. Their original archived paths, SHA-256 values, and roles are listed in `SOURCE_MANIFEST.csv`. The frozen evidence archive hash and source commit context are in `provenance/EXPORT_MANIFEST.json`.
+
+The snapshots include direct modules named by the final saved analysis and their local scientific source dependencies. They preserve calculation and audit source for inspection. They are not a standalone solver package: run scripts depend on the original AJ Physics worktree layout, its shared-compute launcher/runtime, and additional project modules that are not redistributed here. The public verifier parses source syntax without importing or running these scripts. No model or solver was run while making this export.

@@ -1,4 +1,0 @@
-cathode,point_count,duration_h,mean_delta_pressure_kpa,p05_delta_pressure_kpa,p95_delta_pressure_kpa,swing_delta_pressure_kpa,min_delta_pressure_kpa,max_delta_pressure_kpa,model_stress_index_assigned,role_in_model
-P-LCO,5725,15.9088,17.291913187772924,2.852208,34.308080000000004,31.455872000000003,0.0385,35.8517,-1.0,void-opening experimental end-member
-Z-LCO,5340,14.8383,-2.5322882988222846,-4.6804815,1.834486000000001,6.514967500000001,-5.75066,3.11445,0.0,neutral interpolation check
-N-LCO,6222,17.2896,-18.053681516336226,-29.499495,-1.1342615000000005,28.3652335,-31.4056,0.95684,1.0,void-filling experimental end-member

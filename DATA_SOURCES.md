@@ -1,28 +1,7 @@
-# Data Sources
+# Data sources and attribution
 
-## Moradi Source Workbook
+The processed source-workbook values in `data/` were extracted from the public materials associated with Moradi, Zahiri, and Braun, *Nature Communications* 16, 9266 (2025), [https://doi.org/10.1038/s41467-025-64358-2](https://doi.org/10.1038/s41467-025-64358-2). The included files are derived tables used for the analyses and plots; they are not the source workbook itself.
 
-The manuscript uses numerical values extracted from the public source workbook
-associated with Moradi, Zahiri, and Braun, *Nature Communications* 16, 9266
-(2025).
+The raw workbook is not redistributed. Readers who need the publisher source file should obtain it from the cited publication and follow the original terms. The processed values and figures in this repository are licensed under CC BY 4.0; this does not change rights in the source workbook or other third-party material.
 
-The raw workbook is not redistributed in this public repository.
-Processed extraction tables are included in:
-
-`data/source_workbook_extractions/`
-
-These tables contain the values used for the CCD-boundary fit, pressure
-waveform summaries, EIS/contact-resistance summaries, profilometry/morphology
-summaries, cycling context, and consistency ratios.
-
-## Reduced-Model Outputs
-
-Reduced-model outputs used for the manuscript and supplementary analyses are
-included in:
-
-- `data/manuscript_figure_data/`
-- `data/supplementary_data/`
-- `data/supplementary_tables/`
-
-The archive does not include intermediate working reports, old manuscript
-package versions, or deployment artifacts.
+The Route A model fits, projections, and readout records are saved outputs from the project analysis. Their exact source paths and SHA-256 hashes are indexed in the evidence bundle manifests. The numerical-source map links each result group to the public table and its saved records.

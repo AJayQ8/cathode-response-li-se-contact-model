@@ -1,6 +1,0 @@
-case,source_sheet,evidence_role,point_count,last_cycle,last_value,value_name,value_at_cycle_6,value_at_cycle_17,value_at_cycle_100
-N-LCO 0.4 mA cm-2,Fig 5b,same-current N-LCO trace continues beyond P-LCO trace,18,17.0,94.14159,capacity_retention_percent,98.55128,94.14159,94.14159
-P-LCO 0.4 mA cm-2,Fig 5b,same-current P-LCO trace stops early after voiding is reported,7,6.0,98.15204,capacity_retention_percent,98.15204,98.15204,98.15204
-N-LCO 0.75 mA cm-2,Fig 5c,higher-current N-LCO cycling support,144,143.0,76.99896,capacity_retention_percent,96.93244,94.53441,85.30698
-NMC 2 mAh cm-2,Fig 6c,practical-cell cycling at 2 mAh cm-2,534,534.0,1.76781,capacity_mAh_cm2,1.79867,1.80149,1.88845
-NMC 5 mAh cm-2,Fig 6d,practical-cell cycling at 5 mAh cm-2,224,223.0,4.98668,capacity_mAh_cm2,5.05892,5.06319,5.17509

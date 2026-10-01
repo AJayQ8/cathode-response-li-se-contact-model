@@ -1,13 +1,10 @@
 cff-version: 1.2.0
-message: "If you use this code/data archive, please cite the Zenodo release."
+message: "Please cite the associated manuscript. This repository revision is unreleased and has no DOI yet."
 type: software
-title: "Feedback-amplified cathode-response leverage in Li|solid-electrolyte contact stability: code/data reproducibility archive"
+title: "Cathode-response leverage in Li|solid-electrolyte contact stability: modeling and falsifiable impedance tests"
 authors:
   - given-names: "Ayas"
     family-names: "Alzanki"
+    affiliation: "Kuwait Institute for Scientific Research"
     orcid: "https://orcid.org/0009-0004-3121-3778"
-version: "1.0.0"
-date-released: "2026-06-28"
-doi: "10.5281/zenodo.21003702"
-url: "https://doi.org/10.5281/zenodo.21003702"
 repository-code: "https://github.com/AJayQ8/cathode-response-li-se-contact-model"

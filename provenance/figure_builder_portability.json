@@ -1,0 +1,8 @@
+{
+  "export_path": "scripts/build_spatial_figures.py",
+  "original_source_path": "v04/build_spatial_figures.py",
+  "original_source_sha256": "9d99d300acb1b95a242bfaac3199e93514053aa4cb67397f63cbebb0fa3e6cfa",
+  "exported_source_sha256": "ca96834fa3151c03d44073724151ad9dce38915f682a1aee86d5f69b691d868b",
+  "change_scope": "Portability-only path adaptation. Reads data/load_sharing_8_rows.csv from repository root and writes regenerated figures and provenance under figures/regenerated/. Frozen figures in figures/main and figures/supplementary remain unchanged.",
+  "saved_values_or_plot_operations_changed": false
+}

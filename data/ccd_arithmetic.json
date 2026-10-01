@@ -1,0 +1,93 @@
+{
+  "P_Hill_parameters": {
+    "jmax_ma_cm2": 7.598359329203797,
+    "transition_pressure_mpa": 2.0705163403361353,
+    "exponent": 2.6764947347126715,
+    "floor_ma_cm2": 0.6951298382158585,
+    "mae_ma_cm2": 0.06699229369811208,
+    "r2": 0.9986509464103617
+  },
+  "inverse": "p_t*((j-floor)/(jmax-j))**(1/n)",
+  "rows": [
+    {
+      "N_pressure_MPa": 0.2,
+      "N_CCD_mA_cm2": 1.5,
+      "capacity_capped": false,
+      "P_Hill_equivalent_pressure_MPa": 0.9715877265094793,
+      "extra_pressure_MPa": 0.7715877265094793,
+      "ratio_to_pair_max": {
+        "local": 40.53621545072295,
+        "balance_aligned": 33.85917420205905
+      },
+      "ratio_to_pair_mean_abs": {
+        "local": 105.2310083342009,
+        "balance_aligned": 67.99356320160567
+      }
+    },
+    {
+      "N_pressure_MPa": 0.5,
+      "N_CCD_mA_cm2": 6.0,
+      "capacity_capped": false,
+      "P_Hill_equivalent_pressure_MPa": 3.24142795509669,
+      "extra_pressure_MPa": 2.74142795509669,
+      "ratio_to_pair_max": {
+        "local": 144.02395270483743,
+        "balance_aligned": 120.30062623458926
+      },
+      "ratio_to_pair_mean_abs": {
+        "local": 373.88260346679704,
+        "balance_aligned": 241.57908235626317
+      }
+    },
+    {
+      "N_pressure_MPa": 1.0,
+      "N_CCD_mA_cm2": 7.0,
+      "capacity_capped": true,
+      "P_Hill_equivalent_pressure_MPa": 4.99100687653904,
+      "extra_pressure_MPa": 3.99100687653904,
+      "ratio_to_pair_max": {
+        "local": 209.6719647739444,
+        "balance_aligned": 175.13523405259969
+      },
+      "ratio_to_pair_mean_abs": {
+        "local": 544.3032120104274,
+        "balance_aligned": 351.6940057167514
+      }
+    },
+    {
+      "N_pressure_MPa": 2.0,
+      "N_CCD_mA_cm2": 7.0,
+      "capacity_capped": true,
+      "P_Hill_equivalent_pressure_MPa": 4.99100687653904,
+      "extra_pressure_MPa": 2.99100687653904,
+      "ratio_to_pair_max": {
+        "local": 157.13585765609105,
+        "balance_aligned": 131.25276542491466
+      },
+      "ratio_to_pair_mean_abs": {
+        "local": 407.9207830023267,
+        "balance_aligned": 263.5723821274338
+      }
+    },
+    {
+      "N_pressure_MPa": 5.0,
+      "N_CCD_mA_cm2": 7.0,
+      "capacity_capped": true,
+      "P_Hill_equivalent_pressure_MPa": 4.99100687653904,
+      "extra_pressure_MPa": -0.008993123460959929,
+      "ratio_to_pair_max": {
+        "local": -0.472463697469071,
+        "balance_aligned": -0.3946404581404724
+      },
+      "ratio_to_pair_mean_abs": {
+        "local": -1.2265040219754526,
+        "balance_aligned": -0.7924886405189719
+      }
+    }
+  ],
+  "capped_interpretation": "For a capped j>=7, the evaluated pressure/gap/ratios are lower bounds conditional on the retained P Hill function; no finite upper bound. The 5MPa lower gap is slightly negative because fitted P(5) is above 7, not evidence of a negative physical advantage.",
+  "source_files": [
+    "publication_repository/data/source_workbook_extractions/hill_boundary_fit_parameters.csv",
+    "revision_20260920/source_audit/ccd_source_table.json"
+  ]
+}

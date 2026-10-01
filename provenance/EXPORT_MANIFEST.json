@@ -1,0 +1,85 @@
+{
+  "archived_scientific_source_snapshot_count": 46,
+  "data_file_count": 13,
+  "evidence_bundles": {
+    "calibration-fit-records": {
+      "bytes": 934406,
+      "members": 62,
+      "path": "evidence/calibration-fit-records.zip",
+      "sha256": "53d00f2711a5c492cd682b69791431e94cf02de0ee2558ef445e5ff96cdff467",
+      "transformed_members": 0
+    },
+    "compatible-vector-inputs": {
+      "bytes": 2710796,
+      "members": 136,
+      "path": "evidence/compatible-vector-inputs.zip",
+      "sha256": "33b294dd116ff9aab3b0dded7f2704aa7e4a39963a4f25686b26a56f338d701f",
+      "transformed_members": 1
+    },
+    "minimum-search": {
+      "bytes": 310176,
+      "members": 19,
+      "path": "evidence/minimum-search.zip",
+      "sha256": "3124a9eb0def781c4320e578b64d6737a60ff1eb55c51692178693811fe3a8e1",
+      "transformed_members": 0
+    },
+    "spatial-current": {
+      "bytes": 315354,
+      "members": 32,
+      "path": "evidence/spatial-current.zip",
+      "sha256": "d40ab0798bc626c1958bc9ec719034fc1ba16e193af7e644f5b7255644fdda02",
+      "transformed_members": 0
+    },
+    "spectral-readout-01": {
+      "bytes": 1530485,
+      "members": 35,
+      "path": "evidence/spectral-readout-01.zip",
+      "sha256": "695a723e88ca73151bebbdbbe07ea1d658646340e8712fb56ac7d8e183417e91",
+      "transformed_members": 1
+    },
+    "spectral-readout-02": {
+      "bytes": 1362204,
+      "members": 26,
+      "path": "evidence/spectral-readout-02.zip",
+      "sha256": "ac5bf1bfeefe7888a811c26d6144362f89932ce57260b08edeb1fede31bd4772",
+      "transformed_members": 0
+    }
+  },
+  "external_data": {
+    "Moradi_Zahiri_Braun_DOI": "10.1038/s41467-025-64358-2",
+    "raw_source_workbook_redistributed": false
+  },
+  "figure_file_count": 14,
+  "historical_v1_release": {
+    "annotated_v1_0_0_tag_object": "d94008a8d2e50062266484e60e886ab9e7895198",
+    "historical_public_main_commit": "8d7741057618a0dae88ab7177eeb8ff6fda4ef00",
+    "historical_zenodo_doi": "10.5281/zenodo.21003702",
+    "note": "This DOI identifies the older v1.0.0 code archive; it is not a DOI for this repository revision.",
+    "peeled_v1_0_0_commit": "91fc8e118b4e02ad6a8676379224f547bfc58267"
+  },
+  "notes": [
+    "No model, optimizer, fit, or simulation was run while preparing this export.",
+    "Verification checks operate on saved files and do not import the archived solver scripts."
+  ],
+  "paper_title": "Cathode-response leverage in Li|solid-electrolyte contact stability: modeling and falsifiable impedance tests",
+  "prepared_utc_date": "2026-10-01",
+  "schema": "cathode-response-public-export-v1",
+  "scientific_source_history": {
+    "bounded_forecast_challenge_source_commit": "bec2881f69a5728ea637effe64560e474df5f77f",
+    "final_read_off_commit": "8795b0eed",
+    "frozen_evidence_archive_bytes": 21877768,
+    "frozen_evidence_archive_entries": 2673,
+    "frozen_evidence_archive_sha256": "bf7746fd592a2fcecafc2f356af3723c08640bdd3a72d3d7cdb41cec5cc93fce",
+    "frozen_evidence_archive_uncompressed_bytes": 120114887,
+    "route_a_science_commit": "e2015f4118b50aff0d94cfafd2d08b797eba1da9"
+  },
+  "source_file_count": 47,
+  "source_manifest_row_count": 47,
+  "source_snapshot_count": 46,
+  "source_snapshot_sha256_manifest": "source/SOURCE_MANIFEST.csv",
+  "source_worktree_commit": "7c8b1d6e48030958ff93917e9e21447ebeedf7e3",
+  "status": "Repository revision: 2026-10-01; unreleased; new Zenodo DOI pending",
+  "portability_adapted_utility_count": 1,
+  "figure_builder_original_source_sha256": "9d99d300acb1b95a242bfaac3199e93514053aa4cb67397f63cbebb0fa3e6cfa",
+  "figure_builder_exported_source_sha256": "ca96834fa3151c03d44073724151ad9dce38915f682a1aee86d5f69b691d868b"
+}

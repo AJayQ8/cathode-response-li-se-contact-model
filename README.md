@@ -1,93 +1,55 @@
-# Reduced Li|SE Contact-Field Model
+# Cathode-response leverage in Li|solid-electrolyte contact stability: modeling and falsifiable impedance tests
 
-[![DOI](https://zenodo.org/badge/1280075705.svg)](https://doi.org/10.5281/zenodo.21003701)
+**Current manuscript:** *Cathode-response leverage in Li|solid-electrolyte contact stability: modeling and falsifiable impedance tests*
 
-This repository contains the public code-data archive for the manuscript:
+**Repository revision:** 2026-10-01; unreleased; new Zenodo DOI pending.
 
-**Feedback-amplified cathode-response leverage in Li|solid-electrolyte contact stability**
+This repository contains the processed tables, final figures, saved numerical records, and selected source snapshots associated with the current manuscript. The current analysis evaluates a reduced contact/impedance model against one published LCO-cell study and makes protocol-specific, assumption-conditional predictions. It is not a full electro-chemo-mechanical phase-field solver or an independently validated cell model.
 
-The archive is intended to make the reduced-model calculations, processed
-source-workbook extraction tables, manuscript figure data, and supplementary
-analysis tables inspectable in a clean public repository.
+## Main results represented in these files
 
-## What Is Included
+- N-LCO's uncapped source critical-current densities correspond to +0.77 and +2.74 MPa of extra pressure on the P-LCO fit. This is 34–144 times the maximum paired pressure difference in the Li-free assay. The comparison quantifies the leverage but compares different experimental protocols.
+- In the tested spatial case, current redistribution changes the P/N contrast by less than 0.07 percentage points; its sign depends on load sharing and readout.
+- Under the specified Test 1 protocol, retained baseline-exponent predictions span a P-minus-N contrast of 0.99–5.62 percentage points. Endpoint-exponent predictions span 2.69–4.17 percentage points. These are finite sampled ranges, not confidence intervals or certified bounds. The sampled lower edge depends on the 0.03 compatibility tolerance.
+- Crossing pressure histories with starting states shows a trade-off between in-window history and inherited contact state. The factorial decomposition covers 53 baseline-exponent records; it does not cover the additional minimum-search records or the endpoint-exponent projections.
 
-- `src/li_se_reduced_model.py`: clean implementation of the reduced Li|SE
-  contact-field model used for the manuscript analyses.
-- `scripts/verify_key_metrics.py`: lightweight numerical check for the main
-  reported values that can be recomputed directly from the included CSV files.
-- `data/source_workbook_extractions/`: processed values extracted from the
-  public source workbook, including CCD-boundary, pressure-waveform,
-  EIS/contact-resistance, profilometry, cycling-context, and Hill-boundary
-  fit-parameter tables.
-- `data/manuscript_figure_data/`: source tables behind the main manuscript
-  figures and external morphology/contact-loss comparison.
-- `data/supplementary_data/`: supplementary analysis tables for feedback
-  amplification, threshold brackets, stability-rule sensitivity,
-  term-level attribution, pressure-taper sensitivity, and Z-LCO checks.
-- `data/supplementary_tables/`: model metric definitions, parameter/provenance
-  tables, and simulation-parameter tables.
-- `figures/`: final main and supplementary figure files.
-- `docs/model_equations.md`: model equations and metric definitions.
-- `docs/supplementary_information_captions.md`: journal-facing supplementary
-  figure captions and information.
+For cohort definitions, row descriptions, and checksums, see [`data/README.md`](data/README.md). The numerical-source map is in [`provenance/NUMERICAL_SOURCES.csv`](provenance/NUMERICAL_SOURCES.csv).
 
-## What Is Not Included
+## Contents
 
-The raw Moradi source workbook is not redistributed here. It should be obtained
-from the original publication unless redistribution permission is confirmed.
-The processed extraction tables used in the manuscript are included under
-`data/source_workbook_extractions/`.
+- `data/`: 13 processed CSV/JSON tables supplied with the current manuscript.
+- `figures/`: six main figures and one supplementary figure, each as PDF and PNG.
+- `evidence/`: compact ZIP bundles of the exact archived fit, projection, optimizer, spatial, and spectral-readout records used to check the tables. Each bundle contains an `EVIDENCE_MANIFEST.json` with SHA-256 hashes and the frozen archive hash. Two operational manifests omit only machine-local job receipt/log path keys; their original and exported hashes are both recorded.
+- `source/route_a/`: selected exact Python source snapshots from the frozen analysis archive, with hashes in `source/SOURCE_MANIFEST.csv`.
+- `scripts/verify_saved_outputs.py`: standard-library-only integrity and saved-table check. It does not run or import the scientific model or solver.
+- `scripts/build_spatial_figures.py`: saved-table figure builder for main Figure 3 and supplementary Figure S1; it reads from `data/` and writes optional regenerations under ignored `figures/regenerated/`, leaving the frozen final figures untouched.
+- `docs/`: concise model and reproduction notes.
+- `provenance/`: export/source metadata and the numerical claim-to-source map.
 
-This archive also excludes intermediate working reports, old manuscript
-packages, deployment files, and other development-only folders.
+## Verify the saved files
 
-## Quick Start
-
-Create a Python environment and install the lightweight dependencies:
+With Python 3, run from the repository root:
 
 ```sh
-python -m venv .venv
-. .venv/bin/activate
-pip install -r requirements.txt
+python3 scripts/verify_saved_outputs.py
 ```
 
-Run the public metric check:
+The verifier checks repository file hashes, evidence-archive member hashes, CSV row counts, forecast ranges, challenge residual screens, and Python syntax without importing archived scripts. No third-party Python packages are needed for this check. Rebuilding the two spatial figures requires Matplotlib; the other final figures are supplied as outputs.
 
-```sh
-python scripts/verify_key_metrics.py
-```
+## Reproduction scope
 
-The script prints the key values used in the manuscript and verifies that they
-match the included CSV data within small rounding tolerances.
+The source snapshots preserve exact calculation and audit scripts, and the evidence ZIPs retain the saved records that support the published tables. Most archived run scripts depend on the AJ Physics worktree layout, shared-compute launcher, and runtime modules that are not included here; they are supplied for source inspection and provenance, not as a turnkey solver package. This repository's default verification is deliberately limited to saved-file integrity and arithmetic. It does not re-run fitting, optimization, extraction, or simulation.
 
-## Scope
+The full frozen Route A output archive is separately available at [numerical-evidence.zip](https://aj-physics-qq6btmr96-iscoot.vercel.app/review/cathode-submission-20260927-d64c45f08d114e2b/numerical-evidence.zip). This curated repository contains only the selected source and output records listed in its manifests.
 
-The model is a reduced, source-calibrated Li|SE contact-field model. It is not a
-full electro-chemo-mechanical phase-field solver. The manuscript uses it to
-separate CCD-boundary interpolation from dynamic stress-response/contact-field
-feedback and to map pressure-current regimes under the stated assumptions.
+## Source data
+
+Processed measurements derive from Moradi, Zahiri, and Braun, *Nature Communications* 16, 9266 (2025), [doi:10.1038/s41467-025-64358-2](https://doi.org/10.1038/s41467-025-64358-2). The third-party source workbook is not redistributed. See [`DATA_SOURCES.md`](DATA_SOURCES.md) for attribution and scope.
+
+## Version history
+
+The annotated `v1.0.0` tag is retained as historical provenance. Its Zenodo DOI, [10.5281/zenodo.21003702](https://doi.org/10.5281/zenodo.21003702), identifies that older code archive, not this repository revision. This repository revision has not been released and has no DOI. The historical `v1.0.0` tag object is `d94008a8d2e50062266484e60e886ab9e7895198`; it peels to commit `91fc8e118b4e02ad6a8676379224f547bfc58267`. The public main commit before this update was `8d7741057618a0dae88ab7177eeb8ff6fda4ef00`.
 
 ## License
 
-This repository uses file-type licensing:
-
-- Code in `src/` and `scripts/` is licensed under the MIT License.
-- Data, figures, and documentation are licensed under the Creative Commons
-  Attribution 4.0 International License (CC BY 4.0).
-
-The raw Moradi source workbook is not included in this repository and is not
-licensed by the authors of this repository. See `LICENSE` for details.
-
-## Citation
-
-Please cite the versioned Zenodo archive for the release you used:
-
-Ayas Alzanki. **Feedback-amplified cathode-response leverage in Li|solid-electrolyte
-contact stability: code/data reproducibility archive**. Version 1.0.0. Zenodo.
-https://doi.org/10.5281/zenodo.21003702
-
-Author ORCID: https://orcid.org/0009-0004-3121-3778
-
-For machine-readable citation metadata, see `CITATION.cff`. When the associated
-manuscript has a final citation, cite both the manuscript and this archive.
+Code, data, figures, and documentation use the file-type licenses described in [`LICENSE`](LICENSE). The raw source workbook and other third-party materials remain excluded and are not relicensed here.

@@ -1,0 +1,186 @@
+{
+  "records": [
+    {
+      "extraction": "ordinary",
+      "cathode": "P-LCO",
+      "template": {
+        "Rref": 18.509555446205535,
+        "fc": 3151417.5793250776,
+        "n": 0.9999999999999999,
+        "slow_r": 10.561534092583377,
+        "slow_fc": 4751.423005942266,
+        "slow_n": 0.7870925622156689,
+        "D": 3.2287500846419586,
+        "tail_n": 0.45078365066115067,
+        "source": "science_lab/papers/cathode_response/revision_20260920/impedance8/fits/P_2C_Ch__source__linear__0.json"
+      },
+      "fit_path": "fits/reference_ordinary_P__source__linear__0.json",
+      "fitted_reference": 18.50955557713403,
+      "normalized_R_recovery_error": 7.073562402482025e-09,
+      "zero_recovery_algebra_errors": [
+        2.3890835791785284e-16,
+        2.4069336457743266e-16,
+        2.3890835791785284e-16,
+        2.4069336457743266e-16,
+        2.3890835791785284e-16,
+        2.4069336457743266e-16,
+        2.3890835791785284e-16,
+        2.4069336457743266e-16
+      ],
+      "complex_relative_max": 1.036808760167779e-08,
+      "passed": true
+    },
+    {
+      "extraction": "ordinary",
+      "cathode": "N-LCO",
+      "template": {
+        "Rref": 17.077375478306976,
+        "fc": 3247192.286785327,
+        "n": 0.9999999999999999,
+        "slow_r": 7.208597617682683,
+        "slow_fc": 3473.7926470814814,
+        "slow_n": 0.7919073145267115,
+        "D": 2.3695057295944024,
+        "tail_n": 0.38407072567569206,
+        "source": "science_lab/papers/cathode_response/revision_20260920/impedance8/fits/N_2C_Ch__source__linear__0.json"
+      },
+      "fit_path": "fits/reference_ordinary_N__source__linear__0.json",
+      "fitted_reference": 17.077375605239173,
+      "normalized_R_recovery_error": 7.432769510984372e-09,
+      "zero_recovery_algebra_errors": [
+        2.2356222607338614e-16,
+        3.253308254113361e-16,
+        2.2356222607338614e-16,
+        3.253308254113361e-16,
+        1.9947208375749397e-16,
+        3.253308254113361e-16,
+        1.9947208375749397e-16,
+        3.253308254113361e-16
+      ],
+      "complex_relative_max": 1.2936545408081726e-08,
+      "passed": true
+    },
+    {
+      "extraction": "published",
+      "cathode": "P-LCO",
+      "template": {
+        "Rref": 19.244,
+        "fc": 3151417.5793250776,
+        "n": 0.9999999999999999,
+        "slow_r": 10.561534092583377,
+        "slow_fc": 4751.423005942266,
+        "slow_n": 0.7870925622156689,
+        "D": 3.2287500846419586,
+        "tail_n": 0.45078365066115067,
+        "source": "science_lab/papers/cathode_response/revision_20260920/impedance8/fits/P_2C_Ch__source__linear__0.json"
+      },
+      "fit_path": "fits/reference_published_P__source__linear__0.json",
+      "fitted_reference": 19.244000175766725,
+      "normalized_R_recovery_error": 9.133585887610707e-09,
+      "zero_recovery_algebra_errors": [
+        2.468066146139828e-16,
+        3.1926986015800266e-16,
+        2.468066146139828e-16,
+        3.1926986015800266e-16,
+        2.468066146139828e-16,
+        3.1926986015800266e-16,
+        2.468066146139828e-16,
+        3.1926986015800266e-16
+      ],
+      "complex_relative_max": 1.3436808235056215e-08,
+      "passed": true
+    },
+    {
+      "extraction": "published",
+      "cathode": "N-LCO",
+      "template": {
+        "Rref": 16.94038,
+        "fc": 3247192.286785327,
+        "n": 0.9999999999999999,
+        "slow_r": 7.208597617682683,
+        "slow_fc": 3473.7926470814814,
+        "slow_n": 0.7919073145267115,
+        "D": 2.3695057295944024,
+        "tail_n": 0.38407072567569206,
+        "source": "science_lab/papers/cathode_response/revision_20260920/impedance8/fits/N_2C_Ch__source__linear__0.json"
+      },
+      "fit_path": "fits/reference_published_N__source__linear__0.json",
+      "fitted_reference": 16.940380023619216,
+      "normalized_R_recovery_error": 1.394255377817899e-09,
+      "zero_recovery_algebra_errors": [
+        3.129092930160288e-16,
+        2.8099945310856175e-16,
+        3.129092930160288e-16,
+        2.8099945310856175e-16,
+        3.129092930160288e-16,
+        2.8099945310856175e-16,
+        3.129092930160288e-16,
+        2.8099945310856175e-16
+      ],
+      "complex_relative_max": 2.425321937766715e-09,
+      "passed": true
+    },
+    {
+      "extraction": "robust",
+      "cathode": "P-LCO",
+      "template": {
+        "Rref": 18.486946794523494,
+        "fc": 3302472.6811371967,
+        "n": 0.9999999999999999,
+        "slow_r": 10.757511522542083,
+        "slow_fc": 4696.95069436764,
+        "slow_n": 0.7828432930300723,
+        "D": 3.017647887124935,
+        "tail_n": 0.4817044047166692,
+        "source": "science_lab/papers/cathode_response/revision_20260920/impedance8/fits/P_2C_Ch__source__soft_l1__0.json"
+      },
+      "fit_path": "fits/reference_robust_P__source__soft_l1__0.json",
+      "fitted_reference": 18.48694695186782,
+      "normalized_R_recovery_error": 8.51110404376243e-09,
+      "zero_recovery_algebra_errors": [
+        1.409249490890979e-16,
+        3.4555131119937724e-16,
+        1.409249490890979e-16,
+        3.4555131119937724e-16,
+        1.409249490890979e-16,
+        3.4555131119937724e-16,
+        1.409249490890979e-16,
+        3.4555131119937724e-16
+      ],
+      "complex_relative_max": 1.2417063408141009e-08,
+      "passed": true
+    },
+    {
+      "extraction": "robust",
+      "cathode": "N-LCO",
+      "template": {
+        "Rref": 16.98330303493327,
+        "fc": 3507895.139869009,
+        "n": 0.9999999999999999,
+        "slow_r": 7.339286233321074,
+        "slow_fc": 3548.7222142919595,
+        "slow_n": 0.7753040247470048,
+        "D": 2.341270739595669,
+        "tail_n": 0.38822235522019677,
+        "source": "science_lab/papers/cathode_response/revision_20260920/impedance8/fits/N_2C_Ch__source__soft_l1__0.json"
+      },
+      "fit_path": "fits/reference_robust_N__source__soft_l1__0.json",
+      "fitted_reference": 16.98330311336502,
+      "normalized_R_recovery_error": 4.6181682922252776e-09,
+      "zero_recovery_algebra_errors": [
+        2.0542375533030588e-16,
+        4.1070413050470457e-16,
+        2.0542375533030588e-16,
+        4.1070413050470457e-16,
+        2.0542375533030588e-16,
+        4.1070413050470457e-16,
+        2.0542375533030588e-16,
+        4.1070413050470457e-16
+      ],
+      "complex_relative_max": 7.626258270321356e-09,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "manifest_sha256": "52e64e0ec18e398c5caf15cd2b3edab53941544ef93855d4574c8a44e37a0223"
+}

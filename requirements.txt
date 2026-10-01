@@ -1,2 +1,2 @@
-# Public verification/runtime dependency.
-numpy>=1.26,<2
+# scripts/verify_saved_outputs.py uses only the Python standard library.
+# Optional: Matplotlib is required by scripts/build_spatial_figures.py.
