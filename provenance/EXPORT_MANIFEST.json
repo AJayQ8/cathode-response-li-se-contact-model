@@ -1,4 +1,7 @@
 {
+  "archive_doi": "10.5281/zenodo.23120547",
+  "archive_metadata_date": "2026-10-03",
+  "archive_version": "1.1.0",
   "archived_scientific_source_snapshot_count": 46,
   "data_file_count": 13,
   "evidence_bundles": {
@@ -49,6 +52,8 @@
     "Moradi_Zahiri_Braun_DOI": "10.1038/s41467-025-64358-2",
     "raw_source_workbook_redistributed": false
   },
+  "figure_builder_exported_source_sha256": "ca96834fa3151c03d44073724151ad9dce38915f682a1aee86d5f69b691d868b",
+  "figure_builder_original_source_sha256": "9d99d300acb1b95a242bfaac3199e93514053aa4cb67397f63cbebb0fa3e6cfa",
   "figure_file_count": 14,
   "historical_v1_release": {
     "annotated_v1_0_0_tag_object": "d94008a8d2e50062266484e60e886ab9e7895198",
@@ -62,8 +67,10 @@
     "Verification checks operate on saved files and do not import the archived solver scripts."
   ],
   "paper_title": "Cathode-response leverage in Li|solid-electrolyte contact stability: modeling and falsifiable impedance tests",
+  "portability_adapted_utility_count": 1,
   "prepared_utc_date": "2026-10-01",
   "schema": "cathode-response-public-export-v1",
+  "scientific_repository_baseline": "071f52cd55932346dc7647e8fd4e09b094679521",
   "scientific_source_history": {
     "bounded_forecast_challenge_source_commit": "bec2881f69a5728ea637effe64560e474df5f77f",
     "final_read_off_commit": "8795b0eed",
@@ -78,8 +85,5 @@
   "source_snapshot_count": 46,
   "source_snapshot_sha256_manifest": "source/SOURCE_MANIFEST.csv",
   "source_worktree_commit": "7c8b1d6e48030958ff93917e9e21447ebeedf7e3",
-  "status": "Repository revision: 2026-10-01; unreleased; new Zenodo DOI pending",
-  "portability_adapted_utility_count": 1,
-  "figure_builder_original_source_sha256": "9d99d300acb1b95a242bfaac3199e93514053aa4cb67397f63cbebb0fa3e6cfa",
-  "figure_builder_exported_source_sha256": "ca96834fa3151c03d44073724151ad9dce38915f682a1aee86d5f69b691d868b"
+  "status": "Archive version 1.1.0; DOI 10.5281/zenodo.23120547"
 }

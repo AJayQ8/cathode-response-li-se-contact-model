@@ -1,7 +1,11 @@
 cff-version: 1.2.0
-message: "Please cite the associated manuscript. This repository revision is unreleased and has no DOI yet."
+message: "Please cite this versioned code/data archive and the associated manuscript."
 type: software
-title: "Cathode-response leverage in Li|solid-electrolyte contact stability: modeling and falsifiable impedance tests"
+title: "Cathode-response leverage in Li|solid-electrolyte contact stability: modeling and falsifiable impedance tests (code and data archive)"
+version: "1.1.0"
+date-released: "2026-10-03"
+doi: "10.5281/zenodo.23120547"
+url: "https://doi.org/10.5281/zenodo.23120547"
 authors:
   - given-names: "Ayas"
     family-names: "Alzanki"

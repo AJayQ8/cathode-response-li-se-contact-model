@@ -2,7 +2,7 @@
 
 **Current manuscript:** *Cathode-response leverage in Li|solid-electrolyte contact stability: modeling and falsifiable impedance tests*
 
-**Repository revision:** 2026-10-01; unreleased; new Zenodo DOI pending.
+**Archive version:** 1.1.0 (2026-10-03), [doi:10.5281/zenodo.23120547](https://doi.org/10.5281/zenodo.23120547).
 
 This repository contains the processed tables, final figures, saved numerical records, and selected source snapshots associated with the current manuscript. The current analysis evaluates a reduced contact/impedance model against one published LCO-cell study and makes protocol-specific, assumption-conditional predictions. It is not a full electro-chemo-mechanical phase-field solver or an independently validated cell model.
 
@@ -48,7 +48,9 @@ Processed measurements derive from Moradi, Zahiri, and Braun, *Nature Communicat
 
 ## Version history
 
-The annotated `v1.0.0` tag is retained as historical provenance. Its Zenodo DOI, [10.5281/zenodo.21003702](https://doi.org/10.5281/zenodo.21003702), identifies that older code archive, not this repository revision. This repository revision has not been released and has no DOI. The historical `v1.0.0` tag object is `d94008a8d2e50062266484e60e886ab9e7895198`; it peels to commit `91fc8e118b4e02ad6a8676379224f547bfc58267`. The public main commit before this update was `8d7741057618a0dae88ab7177eeb8ff6fda4ef00`.
+Version 1.1.0 archives the revised manuscript's source snapshots, processed data and saved results at [10.5281/zenodo.23120547](https://doi.org/10.5281/zenodo.23120547). Its scientific files are unchanged from repository commit `071f52cd55932346dc7647e8fd4e09b094679521`; this update adds the archive citation metadata and refreshed checksums.
+
+The annotated `v1.0.0` tag is retained as historical provenance. Its Zenodo DOI, [10.5281/zenodo.21003702](https://doi.org/10.5281/zenodo.21003702), identifies the older code archive. The historical `v1.0.0` tag object is `d94008a8d2e50062266484e60e886ab9e7895198`; it peels to commit `91fc8e118b4e02ad6a8676379224f547bfc58267`. The public main commit before the revised source/data update was `8d7741057618a0dae88ab7177eeb8ff6fda4ef00`.
 
 ## License
 
