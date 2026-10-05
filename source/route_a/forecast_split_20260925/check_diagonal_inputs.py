@@ -1,4 +1,4 @@
-"""Literal identity check requested in Luna review; no numerical work."""
+"""Check diagonal forecast inputs for exact identity; no numerical work."""
 from pathlib import Path
 import hashlib
 import json

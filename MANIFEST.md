@@ -1,6 +1,6 @@
 # Export manifest
 
-The scientific snapshot was assembled on 2026-10-01. Archive version 1.1.0 (2026-10-03) is identified by DOI [10.5281/zenodo.23120547](https://doi.org/10.5281/zenodo.23120547). Its source/data baseline is repository commit `071f52cd55932346dc7647e8fd4e09b094679521`; the archive metadata update leaves all scientific files unchanged.
+The scientific snapshot was assembled on 2026-10-01. Archive version 1.1.0 (2026-10-03) is identified by DOI [10.5281/zenodo.23120547](https://doi.org/10.5281/zenodo.23120547). Its source/data baseline is repository commit `071f52cd55932346dc7647e8fd4e09b094679521`; the archive metadata update leaves all scientific files unchanged. Current repository files additionally contain one reworded source module description dated 2026-10-05; the source manifest records original and current hashes, and executable statements are unchanged.
 
 - Current manuscript source worktree commit: `7c8b1d6e48030958ff93917e9e21447ebeedf7e3`.
 - Frozen numerical evidence ZIP SHA-256: `bf7746fd592a2fcecafc2f356af3723c08640bdd3a72d3d7cdb41cec5cc93fce` (2,673 files and 120,114,887 uncompressed bytes; source archive used only as a hash-checked read source while curating).

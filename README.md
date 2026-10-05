@@ -20,7 +20,7 @@ For cohort definitions, row descriptions, and checksums, see [`data/README.md`](
 - `data/`: 13 processed CSV/JSON tables supplied with the current manuscript.
 - `figures/`: six main figures and one supplementary figure, each as PDF and PNG.
 - `evidence/`: compact ZIP bundles of the exact archived fit, projection, optimizer, spatial, and spectral-readout records used to check the tables. Each bundle contains an `EVIDENCE_MANIFEST.json` with SHA-256 hashes and the frozen archive hash. Two operational manifests omit only machine-local job receipt/log path keys; their original and exported hashes are both recorded.
-- `source/route_a/`: selected exact Python source snapshots from the frozen analysis archive, with hashes in `source/SOURCE_MANIFEST.csv`.
+- `source/route_a/`: selected Python source snapshots from the frozen analysis archive, with hashes in `source/SOURCE_MANIFEST.csv`.
 - `scripts/verify_saved_outputs.py`: standard-library-only integrity and saved-table check. It does not run or import the scientific model or solver.
 - `scripts/build_spatial_figures.py`: saved-table figure builder for main Figure 3 and supplementary Figure S1; it reads from `data/` and writes optional regenerations under ignored `figures/regenerated/`, leaving the frozen final figures untouched.
 - `docs/`: concise model and reproduction notes.
@@ -38,7 +38,7 @@ The verifier checks repository file hashes, evidence-archive member hashes, CSV 
 
 ## Reproduction scope
 
-The source snapshots preserve exact calculation and audit scripts, and the evidence ZIPs retain the saved records that support the published tables. Most archived run scripts depend on the AJ Physics worktree layout, shared-compute launcher, and runtime modules that are not included here; they are supplied for source inspection and provenance, not as a turnkey solver package. This repository's default verification is deliberately limited to saved-file integrity and arithmetic. It does not re-run fitting, optimization, extraction, or simulation.
+The source snapshots preserve the calculation and audit scripts, and the evidence ZIPs retain the saved records that support the published tables. Most archived run scripts depend on the AJ Physics worktree layout, shared-compute launcher, and runtime modules that are not included here; they are supplied for source inspection and provenance, not as a turnkey solver package. This repository's default verification is deliberately limited to saved-file integrity and arithmetic. It does not re-run fitting, optimization, extraction, or simulation.
 
 The full frozen Route A output archive is separately available at [numerical-evidence.zip](https://aj-physics-qq6btmr96-iscoot.vercel.app/review/cathode-submission-20260927-d64c45f08d114e2b/numerical-evidence.zip). This curated repository contains only the selected source and output records listed in its manifests.
 
@@ -48,7 +48,7 @@ Processed measurements derive from Moradi, Zahiri, and Braun, *Nature Communicat
 
 ## Version history
 
-Version 1.1.0 archives the revised manuscript's source snapshots, processed data and saved results at [10.5281/zenodo.23120547](https://doi.org/10.5281/zenodo.23120547). Its scientific files are unchanged from repository commit `071f52cd55932346dc7647e8fd4e09b094679521`; this update adds the archive citation metadata and refreshed checksums.
+Version 1.1.0 archives the revised manuscript's source snapshots, processed data and saved results at [10.5281/zenodo.23120547](https://doi.org/10.5281/zenodo.23120547). The published archive retains the source/data baseline from repository commit `071f52cd55932346dc7647e8fd4e09b094679521`. Current repository files include a documentation update of 5 October 2026: one module description was reworded, with executable statements and saved numerical records unchanged. The source manifest retains the original and current hashes; DOI 10.5281/zenodo.23120547 continues to identify the published 1.1.0 snapshot.
 
 The annotated `v1.0.0` tag is retained as historical provenance. Its Zenodo DOI, [10.5281/zenodo.21003702](https://doi.org/10.5281/zenodo.21003702), identifies the older code archive. The historical `v1.0.0` tag object is `d94008a8d2e50062266484e60e886ab9e7895198`; it peels to commit `91fc8e118b4e02ad6a8676379224f547bfc58267`. The public main commit before the revised source/data update was `8d7741057618a0dae88ab7177eeb8ff6fda4ef00`.
 
